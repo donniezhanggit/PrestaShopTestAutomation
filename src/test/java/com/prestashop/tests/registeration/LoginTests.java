@@ -25,9 +25,11 @@ public class LoginTests extends TestBaseClass {
 	//comment added to try git push
 	
 	
+	
 	@Test ( groups= {"smoke","regression"})
 	public void positiveLoginTest() {
-	
+
+		//another comment is added while other guy was working and push it 
 		HomePage homePage=new HomePage(driver);
 		//verify at page 
 		assertTrue(homePage.isAt());
